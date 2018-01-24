@@ -2,8 +2,8 @@
   name = Alex Ganov
   email = alex@example.com
 [alias]
-  up = pull --rebase --autostash
   co = checkout
+  up = pull --rebase --autostash
   pushf = push --force-with-lease
 [core]
   editor = /usr/bin/vim
