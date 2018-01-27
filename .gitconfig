@@ -4,6 +4,8 @@
 [alias]
   co = checkout
   up = pull --rebase --autostash
-  pushf = push --force-with-lease
+  pf = push --force-with-lease
+[rebase]
+  autosquash = true
 [core]
   editor = /usr/bin/vim
