@@ -86,3 +86,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wds="bin/webpack-dev-server"
 alias br="git branch | fzf | xargs git co"
+alias brew-upgrade="brew update && brew upgrade && brew cleanup"
