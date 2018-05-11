@@ -52,7 +52,7 @@ BUNDLED_COMMANDS=(rubocop hanami)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(osx postgres git rails command-not-found gem npm ruby rbenv bundler sublime)
+plugins=(osx postgres git rails command-not-found gem npm ruby rbenv bundler brew sublime)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,4 +86,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wds="bin/webpack-dev-server"
 alias br="git branch | fzf | xargs git co"
-alias brew-upgrade="brew update && brew upgrade && brew cleanup"
